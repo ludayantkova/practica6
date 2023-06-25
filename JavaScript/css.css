@@ -1,0 +1,18 @@
+body{
+    background-color: #919dbd;
+    background-size: cover;
+
+}
+h2{
+    color: cornflowerblue;
+}
+label{
+    color: white;
+}
+.form1{
+    justify-content: center;
+    text-align: center;
+    position: center;
+    background-image: url("https://gamerwall.pro/uploads/posts/2022-03/1648536687_1-gamerwall-pro-p-atmosfernii-fon-na-rabochii-stol-krasivie-1.jpg");
+    background-repeat: no-repeat;
+}

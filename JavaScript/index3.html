@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zavdanna 3</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main3.js" defer></script>
+</head>
+<body>
+
+
+<div id="quizForm">
+    <h2>{{ question }}</h2>
+    <button v-for="(answer, index) in answers" :key="index" @click="checkAnswer(answer)">{{ answer }}</button>
+    <br><br>
+    <button @click="submitQuiz">Check</button>
+</div>
+</body>
+</html>
